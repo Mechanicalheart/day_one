@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	height: 90px;
+	width: 100%;
+	background: #6157D4;
+	border-bottom: 7px solid #4387B5;
+}
+
+header a{
+	margin-right: 30px;
+	margin-left: 30px;
+	line-height: 90px;
+	font-family: 'Dosis';
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	transition-property: color, transform;
+	transition-timing-function: ease-out;
+	transition-duration: .4s;
+}
+
+header a:hover{
+	color: #C9C7AF;
+	border-bottom: 5px solid #4387B5;
+}
+
+.first_section{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.one_product{
+	padding: 10px;
+	padding-left: 10px;
+	/*border: 0.5px solid #C9C7AF;*/
+	font-family: 'Slabo 27px', serif;
+	width: 33%;
+}
+
+.one_product:hover{
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.one_product img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.mb10{
+	margin-bottom: 10px;
+}
+
+.btn{
+	outline: none;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+	color: white;
+	background: #4387B5;
+	border: none;
+	border-bottom: 7px solid #1b5983;
+	cursor: pointer;
+}
+
+.btn:active{
+	border-bottom: none;
+}
+
+.second_section{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.map{
+	width: 60%;
+}
+
+hr{
+	height: 3px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: #A14C10;
+}
+
+.form{
+	width: 40%;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	border-left: 5px solid #A14C10;
+}
+
+.form h3{
+	font-family: 'Slabo 27px', serif;
+	margin-bottom: 30px;
+}
+
+.form input{
+	font-family: 'Slabo 27px', serif;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 40px;
+	padding-left: 10px;
+	border: none;
+	border: 0.5px solid grey;
+	transition-property: box-shadow;
+	transition-timing-function: ease;
+	transition-duration: .3s;
+}
+
+.form input:focus{
+	border: none;
+	outline: none;
+	box-shadow: 2px 2px 4px 1px rgba(155, 89, 182, .42);
+}
+
+.form textarea{
+	width: 70%;
+}
+
+.form textarea{
+	 margin-bottom: 30px;
+}
+
+.btn-send{
+	width: 70%;
+	background: #A14C10;
+	border-bottom: 7px solid #642e08;
+}
+
+.footer{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-family: 'Slabo';
+	background: #6157D4;
+	color: white;
+	line-height: 40px;
+	font-size: 1em;
+}
+
